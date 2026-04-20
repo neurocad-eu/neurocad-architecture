@@ -1,5 +1,8 @@
 # neurocad-architecture
 
+[![Architecture Validation](https://github.com/neurocad-eu/neurocad-architecture/actions/workflows/validate.yml/badge.svg)](https://github.com/neurocad-eu/neurocad-architecture/actions/workflows/validate.yml)
+[![Release](https://img.shields.io/github/v/release/neurocad-eu/neurocad-architecture)](https://github.com/neurocad-eu/neurocad-architecture/releases)
+
 Public system overview and architecture notes for NeuroCAD.
 
 ## Purpose
@@ -23,5 +26,15 @@ It does not expose private kernel internals, training implementation details, or
 - system overview
 - layer boundaries
 - public versus proprietary split
+- trust boundary notes
+- architectural decision records
 
-See [`docs/system-overview.md`](docs/system-overview.md).
+## Core documents
+
+- [`docs/system-overview.md`](docs/system-overview.md)
+- [`docs/system-context.md`](docs/system-context.md)
+- [`docs/public-private-boundary.md`](docs/public-private-boundary.md)
+- [`docs/inference-flow.md`](docs/inference-flow.md)
+- [`docs/trust-boundaries.md`](docs/trust-boundaries.md)
+- [`adr/001-public-boundary.md`](adr/001-public-boundary.md)
+- [`adr/002-benchmark-publication.md`](adr/002-benchmark-publication.md)
