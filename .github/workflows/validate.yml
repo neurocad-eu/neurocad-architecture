@@ -20,3 +20,5 @@ jobs:
           test -f docs/public-private-boundary.md
           test -f docs/inference-flow.md
           test -f docs/trust-boundaries.md
+          test -f docs/public-surface-map.md
+          test -f docs/control-plane-data-plane.md

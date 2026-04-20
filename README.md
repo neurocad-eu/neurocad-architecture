@@ -28,6 +28,8 @@ It does not expose private kernel internals, training implementation details, or
 - public versus proprietary split
 - trust boundary notes
 - architectural decision records
+- public surface mapping
+- control-plane and data-plane view
 
 ## Core documents
 
@@ -36,5 +38,17 @@ It does not expose private kernel internals, training implementation details, or
 - [`docs/public-private-boundary.md`](docs/public-private-boundary.md)
 - [`docs/inference-flow.md`](docs/inference-flow.md)
 - [`docs/trust-boundaries.md`](docs/trust-boundaries.md)
+- [`docs/public-surface-map.md`](docs/public-surface-map.md)
+- [`docs/control-plane-data-plane.md`](docs/control-plane-data-plane.md)
 - [`adr/001-public-boundary.md`](adr/001-public-boundary.md)
 - [`adr/002-benchmark-publication.md`](adr/002-benchmark-publication.md)
+
+## Operational signals
+
+This repository is meant to support technical diligence with:
+
+- versioned architecture releases
+- explicit trust-boundary notes
+- public/private split documentation
+- ADRs for visible boundary decisions
+- Mermaid diagrams for quick architectural review
